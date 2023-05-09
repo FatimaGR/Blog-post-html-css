@@ -1,0 +1,50 @@
+.portafolio h2 {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  margin-top: 56px;
+  margin-bottom: 24px;
+}
+
+.portafolio__header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.portafolio__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.portafolio__card {
+  padding: 24px;
+  font-size: 12px;
+  position: relative;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.icons svg {
+  width: 40px;
+  height: 40px;
+}
+
+.arrow svg {
+  width: 18.1px;
+  height: 18.1px;
+  padding: 0px;
+}
+
+.barra {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.badges a {
+  padding: 2px 10px;
+  background: #CCFAE1;
+  border-radius: 10px;
+}

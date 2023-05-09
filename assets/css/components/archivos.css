@@ -1,0 +1,49 @@
+.introduction{
+  padding: 64px 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.introduction-button{
+  width: 174px;
+  height: 46px;
+  border: none;
+  border-radius: 0.25em;
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 600;
+  padding: 0.75em 1em;
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.information{
+  background: #77E297;
+  padding: 64px 16px;
+}
+
+.about{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.information p{
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.information a{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.proyect-image{
+  display: grid;
+  width: 384px;
+  border-radius: 8px;
+}

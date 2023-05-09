@@ -1,0 +1,48 @@
+/* About summary */
+
+.about--summary,
+.hobbies--summary {
+  background-color: var(--primary-lighter);
+}
+
+.about--summary__header,
+.about--hobbies__header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.about--summary__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.about__card {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.about__card svg{
+  width: 3rem;
+  height: 2rem;
+}
+
+.about--hobbies__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.hobbies__image{
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.hobbies__paragraph{
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+}
+.mb-{
+  margin-bottom: 0.875rem;
+}

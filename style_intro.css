@@ -1,0 +1,20 @@
+h1 {
+  color: red;
+}
+.title {
+  color: green;
+}
+#parrrafo {
+  color: blue;
+}
+/* rem -> root m*/
+:root{
+  font-size: 12px;
+}
+p {
+  font-size: 2rem;
+}
+/* em */
+h6 {
+  font-size: 1em;
+}

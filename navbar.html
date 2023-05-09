@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  
+  <body>
+    <header class="header">
+      <div class="container-md">
+        <nav class="navbar">
+          <a href="/index.html" class="text-decoration-none">
+            <h1 class="heading-md header__logo">Fátima Gallardo</h1>
+          </a>
+          <ul class="navbar-media-query navbar--links list-style-none">
+            <li>
+              <a href="/article.html" class="link text-sm">Articles</a>
+            </li>
+            <li>
+              <a href="/portafolio.html" class="link text-sm">Portafolio</a>
+            </li>
+            <li>
+              <a href="/about.html" class="link text-sm">About</a>
+            </li>
+            <li>
+              <a href="/contact.html" type="button" class="button button--primary button--sm text-decoration-none">Contact me</a>
+            </li>
+          </ul>
+          <img class="bars" src="/assets/images/icons/bars.svg" alt="bars menu" onclick="showMenu()">
+          <div class="mobile-menu">
+            <ul class="navbar-mobile navbar--links list-style-none">
+              <li>
+                <a href="/article.html" class="link text-sm">Articles</a>
+              </li>
+              <li>
+                <a href="/portafolio.html" class="link text-sm">Portafolio</a>
+              </li>
+              <li>
+                <a href="/about.html" class="link text-sm">About</a>
+              </li>
+              <li>
+                <a href="/contact.html" type="button" class="button button--primary button--sm text-decoration-none">Contact me</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <script>
+      let navBarMobile = document.querySelector(".navbar-mobile");
+      function showMenu () {
+        navBarMobile.classList.toggle("navbar-mobile--open");
+      }
+    </script>
+  </body>
+
+</html>
